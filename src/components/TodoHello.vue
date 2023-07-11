@@ -41,19 +41,22 @@ export default {
   justify-content: center;
   align-items: center;
   .hello {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   input#user-name {
-    font-size: 24px;
+    font-size: 18px;
+    border: none;
   }
   .btn__addName {
+    font-size: 12px;
+    font-family: GmarketSansbold;
     display: block;
     margin: 0 auto;
     border: none;
     background: $white;
     margin-top: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 7px 15px;
+    border-radius: 7px;
   }
   @include media-breakpoint-down(md) {
     height: calc(100vh - 50px);
