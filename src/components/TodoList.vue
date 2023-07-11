@@ -19,6 +19,7 @@
           spellcheck="false">
           <p
             class="list__text"
+            :class="todoItem.completed ? 'underscore' : null"
             spellcheck="false">{{ todoItem.item }}</p>
         </label>
         <p class="list__date">
@@ -89,6 +90,10 @@ export default {
         width: 70%;
         text-align: left;
         margin-left: 10px;
+      }
+      .underscore {
+        color: #888888;
+        text-decoration: line-through;
       }
       .list__date {
         width: 15%;
