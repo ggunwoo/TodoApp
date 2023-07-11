@@ -4,7 +4,7 @@
       <input
         type="text"
         class="add__input"
-        placeholder="Enter를 눌러주세요."
+        placeholder="할 일을 추가합니다."
         v-model="newTodoItem"
         @keypress.enter="addTodoItem" />
       <button
@@ -62,7 +62,7 @@ export default {
       border-radius: 5px;
     }
     button.add__button {
-      width: 20%;
+      width: 15%;
       height: 48px;
       background: $white;
       border: none;
