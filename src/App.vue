@@ -26,6 +26,7 @@
       <TodoList 
         :propsdata="todoItems"
         :propempty="isEmpty"
+        :propstime="nowTime"
         @removeItem="removeOneItem"
         @toggleItem="toggleOneItem" />
       <TodoFooter />
@@ -122,6 +123,7 @@ export default {
         item: todoItem,
         date: `${getDate().month}.${getDate().day}. ${getDate().week}`,
         time: getDate().time,
+        nowTime: this.nowTime,
         completed: false
       }
       localStorage.setItem(todoItem, JSON.stringify(value))

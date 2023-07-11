@@ -25,12 +25,14 @@
         <p class="list__date">
           {{ todoItem.date }}
         </p>
-        <button
-          class="list__delete"
-          @click="removeTodo(todoItem, index)">
-          <!-- X -->
-          <span class="material-symbols-outlined">delete_forever</span>
-        </button>
+        <p>
+          <button
+            class="list__delete"
+            @click="removeTodo(todoItem, index)">
+            <!-- X -->
+            <span class="material-symbols-outlined">delete_forever</span>
+          </button>
+        </p>
       </li>
     </ul>
   </div>

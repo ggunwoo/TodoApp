@@ -39,7 +39,7 @@ export default {
           value: "date-desc"
         },
       ],
-      onePick : "date-asc"
+      onePick : "date-desc"
     }
   },
   emits: ["sortItem", "allClear"],
