@@ -65,6 +65,7 @@ export default {
         padding: 5px;
         border: none;
         border-radius: 5px;
+        background-color: #f6f6ff;
       }
     }
     button.clear {
