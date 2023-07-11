@@ -1,0 +1,30 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 467px,
+  md: 676px,
+  lg: 768px,
+  xl: 992px,
+  xxl: 1200px
+);
+
+$container-max-widths: (
+  sm: 100%,
+  md: 560px,
+  lg: 567px,
+  xl: 572px,
+  xxl: 576px
+);
+
+.in__container {
+  width: 80%;
+  margin: 0 auto;
+};
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+// @import "../../node_modules/bootstrap/scss/root";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
