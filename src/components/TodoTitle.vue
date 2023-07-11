@@ -1,11 +1,8 @@
 <template>
   <div class="title">
     <div class="in__container">
-      <p class="title__text">
-        <span class="title__message">
-          {{ message }}<span class="ntt">&nbsp;&#58;&#41;&nbsp;</span> <!--ntt코드 :) -->
-        </span>
-        <span
+      <div class="title__text">
+        <p
           @keydown.enter="handleName"
           @blur="handleBlur"
           class="title__name"
@@ -13,8 +10,11 @@
           spellcheck="false"
           contenteditable="true">
           {{ propname }}
-        </span>
-      </p>
+        </p>
+        <p class="title__message">
+          {{ message }}<span class="ntt">&nbsp;&#58;&#41;&nbsp;</span> <!--ntt코드 :) -->
+        </p>
+      </div>
       <p class="title__task">
         <span class="title__task-count">
           <em class="title__task-left">{{ propsdata.left }}<br /></em>
