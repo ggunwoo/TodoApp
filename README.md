@@ -1,7 +1,7 @@
 
 
 # **ToDo App**
-#### 웹사이트 링크 : <https://todo-gunw.netlify.app>
+#### 웹사이트 링크 : <https://todo-gunw.netlify.app/>
 <br />
 
 > ***프로젝트*** : 일과 생활을 관리해주는 Todo App
