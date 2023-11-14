@@ -79,6 +79,6 @@
 # 🗒️기획  
 
 > Vue에 양방향 바인딩(v-model) 특성을 살린 TodoApp을 제작했습니다.  
-> LocalStorage에 키(key)|값(value)으로 저장되는 방식입니다.  
+> 할 일목록이 LocalStorage에 키(key), 값(value)으로 저장되는 방식입니다.
 
 <br />
